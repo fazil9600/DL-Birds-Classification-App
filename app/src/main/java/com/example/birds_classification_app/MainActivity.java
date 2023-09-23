@@ -107,7 +107,7 @@ public class MainActivity extends AppCompatActivity {
             String[] classes = {"Abbotts_Babbler", "Abbotts_Booby", "Abyssinian_Ground_Hornbill", "African_Crowned_Crane", "African_Emerald_Cuckoo"};
             result.setText(classes[maxPos]);
 
-            // Releases model resources if no longer used here to added.
+            // Releases model resources if no longer used here to added here.
             model.close();
         } catch (IOException e) {
             // TODO Handle the exception
